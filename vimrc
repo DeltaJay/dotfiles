@@ -46,7 +46,6 @@ set scrolloff=5			" Show a few lines of context around the cursor
 
 
 set incsearch 			" Start searching the moment we start searching
-set hlsearch			" Highlight search results
 set listchars=tab:<->,trail:-,extends:>,precedes:<,nbsp:+ " Show invisible characters
 
 set number			" Always nice to know the line numbers
