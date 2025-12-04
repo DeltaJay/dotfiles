@@ -31,6 +31,8 @@ Plug 'vimwiki/vimwiki'		" Vim note taking plugin
 call plug#end()
 
 
+let g:vimwiki_list = [{'path':'~/wiki/', 'syntax': 'markdown', 'ext':'md'}]
+
 set backspace=indent,eol,start " Allow backspacing over everythin in insert mode
 
 set history=200			" Keep 200 lines of command line history
