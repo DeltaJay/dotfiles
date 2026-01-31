@@ -51,6 +51,7 @@ set incsearch 			" Start searching the moment we start searching
 set listchars=tab:<->,trail:-,extends:>,precedes:<,nbsp:+ " Show invisible characters
 
 set number			" Always nice to know the line numbers
+set nrformats-=octal
 
 filetype plugin indent on
 syntax on
