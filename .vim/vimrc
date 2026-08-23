@@ -52,6 +52,7 @@ set listchars=tab:<->,trail:-,extends:>,precedes:<,nbsp:+ " Show invisible chara
 
 set number			" Always nice to know the line numbers
 set nrformats-=octal
+set virtualedit=block
 
 filetype plugin indent on
 syntax on
